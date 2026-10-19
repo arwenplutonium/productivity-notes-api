@@ -1,0 +1,33 @@
+# Virtual environments - never commit these
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.Python
+build/
+dist/
+*.egg-info/
+
+.env
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+.vscode/
+.idea/
+.DS_Store
+
+# Shell and git config files that do not belong in a project repo
+.bash_profile
+.gitconfig
+.profile
